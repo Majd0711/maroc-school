@@ -195,6 +195,23 @@ body {
     height: auto;
 }
 
+.contact-social-links {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.contact-social-links .social-link {
+    color: #dc3545;
+    font-size: 1.5rem;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-social-links .social-link:hover {
+    color: #ab2a37;
+    transform: translateY(-2px);
+}
+
 /* About Second Section */
 .about-second-section {
     padding: 80px 0;
@@ -230,6 +247,58 @@ body {
     position: absolute;
     left: 0;
     font-size: 1.2rem;
+}
+
+/* Footer Styles */
+.footer-section {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.footer-title {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.footer-email {
+    color: #666;
+    font-size: 18px;
+}
+
+.footer-email i {
+    margin-right: 10px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    background-color: #E41E26;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    background-color: #c41920;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.copyright {
+    color: #666;
+    margin-top: 30px;
+    font-size: 14px;
 }
 
 /* Responsive Design */

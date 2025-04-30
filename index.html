@@ -215,18 +215,18 @@
                          Notre équipe est à votre écoute pour vous accompagner. N'hésitez pas à nous contacter
                           par téléphone, 
                         email ou à nous rendre visite directement à notre campus.</p>
-                    <form class="contact-form">
+                    <form onsubmit="return validateForm()" class="contact-form">
                         <div class="mb-3">
-                            <input type="text" class="form-control" placeholder="Nom">
+                            <input id="nom" type="text" class="form-control" placeholder="Nom">
                         </div>
                         <div class="mb-3">
-                            <input type="text" class="form-control" placeholder="Prénom">
+                            <input id="prenom" type="text" class="form-control" placeholder="Prénom">
                         </div>
                         <div class="mb-3">
-                            <input type="email" class="form-control" placeholder="Email">
+                            <input id="email" type="email" class="form-control" placeholder="Email">
                         </div>
                         <div class="mb-3">
-                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+                            <textarea id="message" class="form-control" rows="5" placeholder="Message"></textarea>
                         </div>
                         <button type="submit" class="btn candidater-btn btn-danger">Envoyer</button>
                     </form>
@@ -249,10 +249,7 @@
                 </div>
                 <div class="col-md-6 text-center">
                     <img src="6b90985224373e50d2c0f41b62262063.png" alt="Morocco Shape" class="footer-img img-fluid" style="max-width: 200px;">
-                </div>
-            </div>
-            
-            <div class="text-center mt-4">
+
                 <h2 class="footer-title">Restez connecté</h2>
                 <p class="footer-email">
                     <i class="fas fa-envelope"></i>
@@ -265,8 +262,8 @@
                     <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
                     <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
                 </div>
+                </div>
             </div>
-            
             <div class="row mt-4">
                 <div class="col-12 text-center">
                     <p class="copyright">Copyright © Digital Morocco School</p>

@@ -9,7 +9,7 @@
 body {
     font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
     color: var(--text-color);
-    padding-top: 76px;
+    padding-top: 50px;
 }
 
 /* Navbar Styles */
@@ -36,20 +36,6 @@ body {
     transition: color 0.3s ease;
 }
 
-.nav-link:after {
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    transition: width 0.3s ease;
-}
-
-
-
-.nav-link:hover:after {
-    width: 100%;
-}
-
 .navbar .candidater-btn.btn-danger {
     background-color: #dc3545 !important;
     color: white;
@@ -71,7 +57,6 @@ body {
 .hero-section {
     padding: 80px 0;
     background-color: var(--light-bg);
-    overflow: hidden;
 }
 
 .hero-section h1 {
